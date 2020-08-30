@@ -1,0 +1,15 @@
+.container {
+  margin-top: 1.2rem;
+}
+
+.container input,
+.container ::-webkit-input-placeholder {
+  color: white !important;
+  text-align-last: center;
+}
+.container input:focus {
+  background-color: transparent;
+  box-shadow: none !important;
+
+  border: 2px solid rgb(255, 255, 255);
+}
